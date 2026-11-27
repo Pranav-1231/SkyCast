@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SkyCast -Weather Dashboard</title>
-    <link rel="stylesheets" href="style.css">
+    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-    <div class="Dashboard">
+    <div class="dashboard">
         <header class="header">
             <h1>WEATHER ANALYTICS DASHBOARD </h1>
         </header>
@@ -35,12 +35,11 @@
                         <div class="city-box">
                             <h3>Delhi</h3>
                             <p>24°C</p>
-                        
-                        
-                        
                         </div>
                     </div>
                 </div>
+                
+                <div class="weather-metrics">
                 <div class="metric-card">
                     <h3>💧Humidity</h3>
                     <p id="humidity">65%</p>
@@ -70,6 +69,7 @@
                         <h3>🌧️ Precipitation</h3>
                         <p id="precipitation">10%</p>
                     </div>
+                </div>
             </section>
 
             <section class="right-section">
@@ -115,9 +115,9 @@
                 </div>
             </div>
             
-            <div class="chart-card">
+            <div class="chart-container">
                 <h2>Temperature Trends</h2>
-                <canvas id="temperaturechart"></canvas>
+                <canvas id="temperatureChart"></canvas>
             </div>
 
             <div class="bottom-charts">
