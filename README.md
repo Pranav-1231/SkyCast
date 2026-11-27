@@ -1,2 +1,2 @@
 # SkyCast
-This is my first project using api stuff. 
+This is website where it simple and easy to check the weather of any place in world. 
